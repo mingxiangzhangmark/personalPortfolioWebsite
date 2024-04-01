@@ -69,8 +69,9 @@ body{
 }
 
 .aboutImage{
-    max-width: 100%;
-
+    /* max-width: 100%; */
+    max-width: 80%;
+    max-width: 80%;
 }
 .into-text p{
     margin-top: 30px;
@@ -114,4 +115,57 @@ body{
 
 .chart .percent:after{
     content: '%';
+}
+
+.squareItem{
+    margin-top: 30px;
+    position: relative;
+}
+
+.squareItemContainer{
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+
+}
+
+.squareItemContainer:before, .squareItemContainer:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    border-bottom: 2px solid #444;
+}
+
+.squareItemContainer:before{
+    right: 0px;
+}
+
+.squareItemContainer:after{
+   left: 0px;
+}
+
+.squareContent h2{
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #e74c3c;
+}
+.squareContent h3{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.squareIcon{
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #444;
 }
