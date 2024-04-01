@@ -1,2 +1,7 @@
 # personalPortfolioWebsite
-The code for my self introduction and portfolio website, mainly use Bootstrap, JQuery, HTML,CSS3 and JS.
+This is my self portfolio website, mainly use Bootstrap, JQuery, HTML,CSS3 and JS.
+
+Pictures:
+
+![alt text](image.png)
+
